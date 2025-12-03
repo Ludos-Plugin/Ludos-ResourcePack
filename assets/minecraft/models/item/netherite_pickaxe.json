@@ -1,0 +1,44 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/netherite_pickaxe"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "item/ludos/burrower/pickaxe/NetheriteNormal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "item/ludos/burrower/pickaxe/NetheriteHammer"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "item/ludos/burrower/pickaxe/Netherite1Normal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4
+      },
+      "model": "item/ludos/burrower/pickaxe/Netherite1Hammer"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5
+      },
+      "model": "item/ludos/burrower/pickaxe/Netherite2Normal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6
+      },
+      "model": "item/ludos/burrower/pickaxe/Netherite2Hammer"
+    }
+  ]
+}

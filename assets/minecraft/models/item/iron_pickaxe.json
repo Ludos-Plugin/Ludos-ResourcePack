@@ -1,0 +1,44 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/iron_pickaxe"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "item/ludos/burrower/pickaxe/IronNormal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "item/ludos/burrower/pickaxe/IronHammer"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "item/ludos/burrower/pickaxe/Iron1Normal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4
+      },
+      "model": "item/ludos/burrower/pickaxe/Iron1Hammer"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5
+      },
+      "model": "item/ludos/burrower/pickaxe/Iron2Normal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6
+      },
+      "model": "item/ludos/burrower/pickaxe/Iron2Hammer"
+    }
+  ]
+}
