@@ -27,6 +27,12 @@
         "custom_model_data": 4
       },
       "model": "item/ludos/burrower/pickaxe/Stone1Hammer"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 842031
+      },
+      "model": "item/ludos/pickaxe/StoneNormal"
     }
   ]
 }

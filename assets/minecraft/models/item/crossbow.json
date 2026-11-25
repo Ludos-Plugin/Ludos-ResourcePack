@@ -1,0 +1,243 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "item/crossbow_standby"
+  },
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        -90,
+        0,
+        -60
+      ],
+      "translation": [
+        2,
+        0.1,
+        -3
+      ],
+      "scale": [
+        0.9,
+        0.9,
+        0.9
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        -90,
+        0,
+        30
+      ],
+      "translation": [
+        2,
+        0.1,
+        -3
+      ],
+      "scale": [
+        0.9,
+        0.9,
+        0.9
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        -90,
+        0,
+        -55
+      ],
+      "translation": [
+        1.13,
+        3.2,
+        1.13
+      ],
+      "scale": [
+        0.68,
+        0.68,
+        0.68
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        -90,
+        0,
+        35
+      ],
+      "translation": [
+        1.13,
+        3.2,
+        1.13
+      ],
+      "scale": [
+        0.68,
+        0.68,
+        0.68
+      ]
+    }
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "pulling": 1
+      },
+      "model": "item/crossbow_pulling_0"
+    },
+    {
+      "predicate": {
+        "pulling": 1,
+        "pull": 0.58
+      },
+      "model": "item/crossbow_pulling_1"
+    },
+    {
+      "predicate": {
+        "pulling": 1,
+        "pull": 1
+      },
+      "model": "item/crossbow_pulling_2"
+    },
+    {
+      "predicate": {
+        "charged": 1
+      },
+      "model": "item/crossbow_arrow"
+    },
+    {
+      "predicate": {
+        "charged": 1,
+        "firework": 1
+      },
+      "model": "item/crossbow_firework"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 842051
+      },
+      "model": "item/ludos/huntsman/crossbow/CrossbowFlame"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 842051,
+        "pulling": 1
+      },
+      "model": "item/ludos/huntsman/crossbow/states/CrossbowFlamePulling0"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 842051,
+        "pulling": 1,
+        "pull": 0.58
+      },
+      "model": "item/ludos/huntsman/crossbow/states/CrossbowFlamePulling1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 842051,
+        "pulling": 1,
+        "pull": 1
+      },
+      "model": "item/ludos/huntsman/crossbow/states/CrossbowFlamePulling2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 842051,
+        "charged": 1
+      },
+      "model": "item/ludos/huntsman/crossbow/states/CrossbowFlameArrow"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 842051,
+        "charged": 1,
+        "firework": 1
+      },
+      "model": "item/ludos/huntsman/crossbow/states/CrossbowFlameFirework"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 842052
+      },
+      "model": "item/ludos/huntsman/crossbow/CrossbowRepulsing"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 842052,
+        "pulling": 1
+      },
+      "model": "item/ludos/huntsman/crossbow/states/CrossbowRepulsingPulling0"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 842052,
+        "pulling": 1,
+        "pull": 0.58
+      },
+      "model": "item/ludos/huntsman/crossbow/states/CrossbowRepulsingPulling1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 842052,
+        "pulling": 1,
+        "pull": 1
+      },
+      "model": "item/ludos/huntsman/crossbow/states/CrossbowRepulsingPulling2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 842052,
+        "charged": 1
+      },
+      "model": "item/ludos/huntsman/crossbow/states/CrossbowRepulsingArrow"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 842052,
+        "charged": 1,
+        "firework": 1
+      },
+      "model": "item/ludos/huntsman/crossbow/states/CrossbowRepulsingFirework"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 842053
+      },
+      "model": "item/ludos/huntsman/crossbow/CrossbowSlowness"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 842053,
+        "pulling": 1
+      },
+      "model": "item/ludos/huntsman/crossbow/states/CrossbowSlownessPulling0"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 842053,
+        "pulling": 1,
+        "pull": 0.58
+      },
+      "model": "item/ludos/huntsman/crossbow/states/CrossbowSlownessPulling1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 842053,
+        "pulling": 1,
+        "pull": 1
+      },
+      "model": "item/ludos/huntsman/crossbow/states/CrossbowSlownessPulling2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 842053,
+        "charged": 1
+      },
+      "model": "item/ludos/huntsman/crossbow/states/CrossbowSlownessArrow"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 842053,
+        "charged": 1,
+        "firework": 1
+      },
+      "model": "item/ludos/huntsman/crossbow/states/CrossbowSlownessFirework"
+    }
+  ]
+}

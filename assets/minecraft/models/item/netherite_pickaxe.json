@@ -39,6 +39,12 @@
         "custom_model_data": 6
       },
       "model": "item/ludos/burrower/pickaxe/Netherite2Hammer"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 842031
+      },
+      "model": "item/ludos/pickaxe/NetheriteNormal"
     }
   ]
 }

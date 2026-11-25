@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/ludos/pickaxe/base/pickaxe_3d",
+  "textures": {
+    "0": "minecraft:item/ludos/pickaxe/NetheriteNormal",
+    "particle": "minecraft:item/ludos/pickaxe/NetheriteNormal"
+  }
+}
